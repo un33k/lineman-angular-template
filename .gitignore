@@ -3,6 +3,9 @@
 /node_modules
 /vendor/bower
 
+/vendor/webfonts/bootstrap/*
+/vendor/webfonts/font-awesome/*
+
 /dist
 /generated
 
