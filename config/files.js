@@ -10,7 +10,12 @@ module.exports = function(lineman) {
   return {
     js: {
       vendor: [
-        "vendor/js/angular.js",
+        "vendor/bower/underscore/underscore.js",
+        "vendor/bower/jquery/dist/jquery.js",
+        "vendor/bower/angular/angular.js",
+        "vendor/bower/angular-resource/angular-resource.js",
+        "vendor/bower/angular-route/angular-route.js",
+        "vendor/bower/angular-ui/build/angular-ui.js",
         "vendor/js/**/*.js"
       ],
       app: [
@@ -22,7 +27,11 @@ module.exports = function(lineman) {
     less: {
       compile: {
         options: {
-          paths: ["vendor/css/normalize.css", "vendor/css/**/*.css", "app/css/**/*.less"]
+          paths: [
+            "vendor/bower/normalize-css/normalize.css",
+            "vendor/css/**/*.css",
+            "app/css/**/*.less"
+          ]
         }
       }
     }
