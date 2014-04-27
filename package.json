@@ -8,6 +8,7 @@
     "company": "Neekware, Inc."
   },
   "devDependencies": {
+    "lineman": "git://github.com/linemanjs/lineman.git#grunt-contrib-watch",
     "lineman-livereload": "git://github.com/un33k/lineman-livereload.git"
   },
   "scripts": {
